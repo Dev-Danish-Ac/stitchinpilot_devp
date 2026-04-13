@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StitchinPilot_Devp", "StitchinPilot_Devp.csproj", "{B73E6123-9AA5-43C5-9FE2-D56B96C49276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StitchinPilotGateway", "..\StitchinGateway\StitchinPilotGateway.csproj", "{21894D9D-3A51-40F0-A8DE-E2B7DC6BD147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "..\AuthService\AuthService.csproj", "{141CF755-013B-49AE-A683-AAD9A4DBDC3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "..\ProductService\ProductService.csproj", "{F4644558-6901-4467-9A7C-EAE9B33CEAE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		xtra.gitignore = xtra.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B73E6123-9AA5-43C5-9FE2-D56B96C49276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73E6123-9AA5-43C5-9FE2-D56B96C49276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73E6123-9AA5-43C5-9FE2-D56B96C49276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73E6123-9AA5-43C5-9FE2-D56B96C49276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21894D9D-3A51-40F0-A8DE-E2B7DC6BD147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21894D9D-3A51-40F0-A8DE-E2B7DC6BD147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21894D9D-3A51-40F0-A8DE-E2B7DC6BD147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21894D9D-3A51-40F0-A8DE-E2B7DC6BD147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141CF755-013B-49AE-A683-AAD9A4DBDC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141CF755-013B-49AE-A683-AAD9A4DBDC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141CF755-013B-49AE-A683-AAD9A4DBDC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141CF755-013B-49AE-A683-AAD9A4DBDC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4644558-6901-4467-9A7C-EAE9B33CEAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4644558-6901-4467-9A7C-EAE9B33CEAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4644558-6901-4467-9A7C-EAE9B33CEAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4644558-6901-4467-9A7C-EAE9B33CEAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1954B56-95E8-4974-826C-703FC8FC2844}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@stichinpilot_Devp_HostAddress = http://localhost:5228
+
+GET {{stichinpilot_Devp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
